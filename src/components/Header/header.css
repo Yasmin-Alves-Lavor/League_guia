@@ -1,0 +1,40 @@
+.header {
+    background: black;
+    padding: 10px 0;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding:0;
+  }
+  
+  .navItem {
+    margin: 0 15px;
+  }
+  
+  .navItem a {
+    font-family: 'mark';
+    font-size: 13px;
+    color: #f9f9f9;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 5px solid transparent;
+    transition: border-width 0.3s;
+  }
+  
+  .navItem a:hover {
+    font-size: 13px;
+    color: #f9f9f9;
+    border-radius: 0.3rem;
+    background-color: #5a5a637a;
+  }
+  
+  .navItem a:hover::after {
+      width: 0;
+      left: 50%; 
+    }
+  
+  
