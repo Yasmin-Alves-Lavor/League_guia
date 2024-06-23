@@ -9,10 +9,17 @@
     font-size: 16px;
   }
   
-  .searchBar button {
-    padding: 10px;
-    font-size: 16px;
+  .botão_pesquisa {
+
+    font-family: 'Spiegel';
+    background-color: #0397AB;
+    /*font-weight: bold;*/
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 10px;
     margin-left: 10px;
-    cursor: pointer;
   }
   

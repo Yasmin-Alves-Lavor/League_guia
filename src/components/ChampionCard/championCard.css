@@ -1,17 +1,86 @@
 .championCard {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .championCard img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .championCard h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+}
+
+.championInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.championImage {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.championDetails {
+  flex-grow: 1;
+}
+
+.championName {
+  font-size: 28px;
+  font-family: 'BeaufortForLol', sans-serif;
+  color: #333;
+}
+
+.championTitle {
+  font-size: 18px;
+  font-family: 'Spiegel', sans-serif;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.championBlurb {
+  font-size: 16px;
+  font-family: 'Spiegel', sans-serif;
+  color: #555;
+  line-height: 1.5;
+}
+
+.championAbilities {
+  margin-top: 20px;
+}
+
+.championAbility {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.abilityImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.abilityDetails {
+  flex-grow: 1;
+}
+
+.abilityName {
+  font-size: 18px;
+  font-family: 'BeaufortForLol', sans-serif;
+  color: #333;
+}
+
+.abilityDescription {
+  font-size: 14px;
+  font-family: 'Spiegel', sans-serif;
+  color: #555;
+}
+
+
+
+
+
+
+
   

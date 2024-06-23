@@ -14,9 +14,9 @@ const SearchBar = ({ onSearch }) => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Digite o nome do campeão"
+        placeholder=""
       />
-      <button onClick={handleSearch}>Buscar</button>
+      <button onClick={handleSearch} className='botão_pesquisa'>BUSCAR</button>
     </div>
   );
 };
