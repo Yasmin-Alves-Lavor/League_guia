@@ -1,81 +1,87 @@
-.championCard {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.champion-card {
+  background-color: #091428;
   padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
 }
 
-.championInfo {
+.champion-info {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  justify-content: center; 
 }
 
-.championImage {
-  width: 200px;
+.champion-image {
+  width: 40%;
   height: auto;
-  border-radius: 10px;
-  margin-right: 20px;
+  border-radius: 12px;
+  margin-right: 20px; 
+}
+.champion-image-container {
+  text-align: center;
 }
 
-.championDetails {
-  flex-grow: 1;
+.champion-details {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.championName {
-  font-size: 28px;
-  font-family: 'BeaufortForLol', sans-serif;
-  color: #333;
+.champion-name {
+  font-family: 'BeaufortForLol';
+  font-size: 40px;
+  font-style: italic;
+  color: #C89B3C;
 }
 
-.championTitle {
+.champion-title {
   font-size: 18px;
-  font-family: 'Spiegel', sans-serif;
-  color: #666;
-  margin-bottom: 10px;
+  color: #F0E6D2;
+  font-family: 'Spiegel';
 }
 
-.championBlurb {
-  font-size: 16px;
-  font-family: 'Spiegel', sans-serif;
-  color: #555;
-  line-height: 1.5;
+.champion-blurb {
+  font-size: 14px;
+  color: #F0E6D2;
+  font-family: 'Spiegel';
 }
 
-.championAbilities {
+.champion-abilities {
   margin-top: 20px;
 }
 
-.championAbility {
+.champion-ability {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: 'Spiegel';
 }
 
-.abilityImage {
+.ability-image {
   width: 50px;
   height: 50px;
-  margin-right: 20px;
+  border-radius: 8px;
+  margin-right: 10px;
 }
 
-.abilityDetails {
-  flex-grow: 1;
+.ability-details {
+  text-align: left;
 }
 
-.abilityName {
+.ability-name {
   font-size: 18px;
-  font-family: 'BeaufortForLol', sans-serif;
-  color: #333;
+  color: #C89B3C;
+  font-family: 'BeaufortForLol';
 }
 
-.abilityDescription {
+.ability-description {
   font-size: 14px;
-  font-family: 'Spiegel', sans-serif;
-  color: #555;
+  color: #F0E6D2;
 }
+
+
+
 
 
 

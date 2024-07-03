@@ -1,3 +1,6 @@
+div{
+  background-color: #0A1428;
+}
 .Titulo {
     padding: 40px 0;
     text-align: center;
@@ -9,12 +12,13 @@
   }
   
   .linha_1 {
+    color: #F0E6D2;
     font-size: 22px;
     font-family: 'Spiegel';
   }
   
   .linha_2 {
-    color: #0A1428;
+    color: #C89B3C;
     font-style: italic;
     font-size: 80px;
     font-family: 'BeaufortForLol';
